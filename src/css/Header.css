@@ -1,0 +1,156 @@
+.header
+{
+    height:65px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color:#131921;
+    position:sticky;
+    top:0px;
+    z-index:100;
+    width:100%;
+}
+
+.header__logo
+{
+    width:100px;
+    margin:18px 15px 0px 15px;
+    object-fit: contain;
+}
+
+
+.header__search
+{
+    display:flex;
+    flex:1;
+    align-items:center;
+    border-radius:24px;
+}
+
+
+.header__searchInput
+{
+    height:12px;
+    padding:10px;
+    width:100%;
+    /* flex-basis: 100%; */
+    border:none;
+    outline: none;;
+}
+
+/* .header__searchInput:hover
+{
+    border:1px solid yellow; 
+} */
+
+.header__searchIcon
+{
+    padding:5px;
+    background-color:#cd9042;
+    height:22px !important;
+}
+
+.header__nav
+{
+    display:flex;
+    justify-content: space-evenly;
+    color:white !important;
+}
+
+.header__option
+{
+    display: flex;
+    flex-direction: column;
+    margin-left:7px;
+    margin-right:7px;
+    color:white;
+}
+
+.header__optionBasket
+{
+    display:flex;
+    align-items: center;
+    color:white;
+}
+
+.header__optionLineOne
+{
+    font-size:10px;
+    text-decoration:none !important;
+    color:white;
+}
+
+.header__optionLineTwo
+{
+    font-size:13px;
+    font-weight:800;
+    text-decoration:none !important;
+    color:white;
+}
+
+.header__basketCount
+{
+    margin-left:7px;
+    margin-right:7px;
+}
+
+
+@media (max-width:420px)
+{
+    .header__logo
+  {
+    width:40px;
+    height:40px;
+    margin:3px 3px 0px 3px;
+  }
+
+  
+.header__search
+  {
+    border-radius:12px;
+    flex:1;
+  }
+
+  .header__searchInput
+{
+
+    width:100%;
+}
+
+.header__nav
+{
+    align-items:center;
+    background-color: #131921;
+}
+
+.header__option
+{
+    margin-left:2px;
+    margin-right:2px;
+}
+
+/* .header__optionLineOne
+{
+    font-size:2px;
+} */
+
+.header__userName
+{
+    font-size:8px;
+    font-weight:bold;
+}
+
+.header__optionLineTwo
+{
+    font-size:8px;
+    font-weight:800;
+}
+
+.header__basketCount
+{
+    margin-left:2px;
+    margin-right:3px;
+}
+
+}
+
